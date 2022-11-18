@@ -1,25 +1,37 @@
 using UnityEngine;
 using System.Collections.Generic;
 using Ink.Runtime;
-using System.IO;
 
 public class dialogovariaveis
 {
+    private Story globalVariablesStory;
+    private const string saveVariablesKey = "INK_VARIABLES";
     public Dictionary<string, Ink.Runtime.Object> variables { get; private set;}
 
-    public dialogovariaveis(string globalsFilePath)
+    public dialogovariaveis(TextAsset loadGlobalsJSON)
     {
-        string inkfileContents = File.ReadAllText(globalsFilePath);
-        Ink.Compiler compiler = new Ink.Compiler(inkfileContents);
-        Story globalVariablesStory = compiler.Compile();
+        // create the story
+        globalVariablesStory = new Story(loadGlobalsJSON.text);
 
+        // initialize the dictionary
         variables = new Dictionary<string, Ink.Runtime.Object>();
         foreach (string name in globalVariablesStory.variablesState)
         {
             Ink.Runtime.Object value = globalVariablesStory.variablesState.GetVariableWithName(name);
             variables.Add(name, value);
+            Debug.Log("Initialized global dialogue variable: " + name + " = " + value);
+        }
+    }
 
-            Debug.Log("Iniciando uma variavel global: " + name + " = " + value);
+    public void SaveVariables()
+    {
+        if (globalVariablesStory != null)
+        {
+            // Load the current state of all of our variables to the globals story
+            VariablesToStory(globalVariablesStory);
+            // NOTE: eventually, you'd want to replace this with an actual save/load method
+            // rather than using PlayerPrefs.
+            PlayerPrefs.SetString(saveVariablesKey, globalVariablesStory.state.ToJson());
         }
     }
 
@@ -45,6 +57,8 @@ public class dialogovariaveis
     private void VariablesToStory(Story story)
     {
         foreach(KeyValuePair<string, Ink.Runtime.Object> variable in variables)
-        story.variablesState.SetGlobal(variable.Key, variable.Value);
+        {
+            story.variablesState.SetGlobal(variable.Key, variable.Value);
+        }
     }
 }
