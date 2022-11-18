@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Data.Common;
 using TMPro;
 using UnityEngine;
 
@@ -9,16 +6,16 @@ public class PopUp : MonoBehaviour
     public Canvas canvas;
     public TextMeshProUGUI missoesTXT;
 
-    private float contdown = 7f;
+    private float contdown = 12f;
 
     void Update()
     {
         contdown -= Time.deltaTime;
-        if(contdown >= 3)
+        if(contdown >= 6)
         {
             missoesTXT.text = "Aperte E para Interagir com o cenário e Pessoas";
         }
-        else if(contdown < 3 && contdown > 0)
+        else if(contdown < 6 && contdown > 0)
         {
             missoesTXT.text = "Aperte ESC para pausar";
         }
