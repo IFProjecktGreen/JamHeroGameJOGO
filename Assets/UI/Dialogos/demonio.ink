@@ -55,7 +55,7 @@ Como você se sente com tudo isso?
             **[Apertar]
                 Boa decisão garotinho
                 Resumindo tudo, você só tem uma chance de reverter esse ocorrido
-                Já que eu só consigo te levar para o passado duas vezes antes de você...
+                Já que eu só consigo te levar para o passado uma vez antes de você...
                 Enfim, boa sorte!  
                 ~DemonioContrato = "true"
                     -> DONE
