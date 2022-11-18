@@ -22726,23 +22726,10 @@ MonoBehaviour:
   - {fileID: -1616116519, guid: 61b94b4c0d465e241b0d91fd6f4545ce, type: 3}
   - {fileID: -1215467536, guid: c66c2c1d20dbc9e419dd9107003e5960, type: 3}
   - {fileID: -1573178938, guid: 74b0777bff4110647879caa57482efe4, type: 3}
-  globalsinkfile:
-    compileAutomatically: 0
-    inkAsset: {fileID: 102900000, guid: 275673256fe37d947b404a901d63d00b, type: 3}
-    jsonAssetDirectory: {fileID: 0}
-    jsonAsset: {fileID: 0}
-    unhandledCompileErrors: []
-    errors: []
-    warnings: []
-    todos: []
-    parents: []
-    masterInkAssets: []
-    masterInkAsset: {fileID: 0}
-    includePaths: []
-    includes: []
   booleano: 0
   dialogoIsOn: 0
   VelocidadeLetra: 0.05
+  loadGlobalsJSON: {fileID: 4900000, guid: 3e8d0e02db436d24ea35e3e824f4619a, type: 3}
 --- !u!4 &1242607285
 Transform:
   m_ObjectHideFlags: 0
@@ -29214,7 +29201,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.13960099, y: -4.3476334}
+  m_Offset: {x: 0.13960099, y: -3.8811173}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -29225,7 +29212,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.96094847, y: 4.908573}
+  m_Size: {x: 0.96094847, y: 3.975541}
   m_EdgeRadius: 0
 --- !u!1 &1573990849
 GameObject:
@@ -31279,7 +31266,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.13960099, y: -4.3476334}
+  m_Offset: {x: 0.13960099, y: -3.830028}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -31290,7 +31277,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.96094847, y: 4.908573}
+  m_Size: {x: 0.96094847, y: 3.8733625}
   m_EdgeRadius: 0
 --- !u!1 &1773289105
 GameObject:

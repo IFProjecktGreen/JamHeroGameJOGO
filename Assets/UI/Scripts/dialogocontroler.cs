@@ -1,5 +1,4 @@
 using Ink.Runtime;
-using Ink.UnityIntegration;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -8,7 +7,7 @@ using UnityEngine.UI;
 
 public class dialogocontroler : MonoBehaviour
 {
-    static dialogocontroler instance;
+    private static dialogocontroler instance;
 
     //O painel dos diálogos
     [SerializeField] private GameObject dialoguepanel;
@@ -25,8 +24,6 @@ public class dialogocontroler : MonoBehaviour
     //Para setar os sprites no painel de dialogo
     [SerializeField] private Image imagem;
     [SerializeField] private Sprite[] spritesList;
-
-    [SerializeField] private InkFile globalsinkfile;
 
     [SerializeField] private bool booleano;
 
@@ -49,11 +46,23 @@ public class dialogocontroler : MonoBehaviour
 
     private dialogovariaveis dialogovariaveis;
 
+    [Header("Load Globals JSON")]
+    [SerializeField] private TextAsset loadGlobalsJSON;
+
     private void Awake()
     {
-        instance = this;
+        if(instance != null)
+        {
+            Debug.Log("Found more than one Dialogue Manager in the scene");
+        }
 
-        dialogovariaveis = new dialogovariaveis(globalsinkfile.filePath);
+        instance = this;
+        dialogovariaveis = new dialogovariaveis(loadGlobalsJSON);
+    }
+
+    public static dialogocontroler GetInstance()
+    {
+        return instance;
     }
 
     private void Start()
@@ -86,11 +95,6 @@ public class dialogocontroler : MonoBehaviour
             continueStory();
         }
 
-    }
-
-    public static dialogocontroler GetInstance()
-    {
-        return instance;
     }
 
     public void InDialogueMode(TextAsset inkJSON)

@@ -45233,6 +45233,7 @@ MonoBehaviour:
   booleano: 0
   dialogoIsOn: 0
   VelocidadeLetra: 1
+  loadGlobalsJSON: {fileID: 4900000, guid: 3e8d0e02db436d24ea35e3e824f4619a, type: 3}
 --- !u!4 &1592164217
 Transform:
   m_ObjectHideFlags: 0
