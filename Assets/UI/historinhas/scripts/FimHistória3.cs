@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FimHistória1 : MonoBehaviour
+public class FimHistória3 : MonoBehaviour
 {
     private float contdown = 36f;
 
@@ -11,9 +11,9 @@ public class FimHistória1 : MonoBehaviour
     void Update()
     {
         contdown -= Time.deltaTime;
-        if(contdown <= 0)
+        if (contdown <= 0)
         {
-            SceneManager.LoadScene("Scene 1 - Casa_Moderna-Fora");
+            SceneManager.LoadScene("Scene 6 - Chale-Fora");
         }
     }
 }
