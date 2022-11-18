@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +10,7 @@ public class inicioRep : MonoBehaviour
 
     private string ContratoDemonio;
     private string cama;
+    private string Final1;
 
     private bool ativo = false;
     private bool animacao = false;
@@ -21,9 +19,10 @@ void Update()
 {
         ContratoDemonio = ((Ink.Runtime.StringValue)dialogocontroler.GetInstance().GetVariableState("DemonioContrato")).value;
         cama = ((Ink.Runtime.StringValue)dialogocontroler.GetInstance().GetVariableState("CamaCena6")).value;
+        Final1 = ((Ink.Runtime.StringValue)dialogocontroler.GetInstance().GetVariableState("Final1")).value;
 
 
-    if (ContratoDemonio == "true" || cama == "true")
+        if (ContratoDemonio == "true" || cama == "true" || Final1 == "true")
     {
         if (ativo == false)
         {
@@ -41,6 +40,11 @@ void Update()
     }
 
     if(ContratoDemonio == "true")
+        {
+            ativo = false;
+        }
+
+    if(Final1 == "true")
         {
             ativo = false;
         }
@@ -65,11 +69,17 @@ void fim()
         animacao = false;
         contdown = 4f;
         animator.SetBool("aparecer", false);
-
-        if (ContratoDemonio == "true")
-        {
-            SceneManager.LoadScene("Scene 2 - Casa_Moderna - Interno rep1");
-        }
     }
+    else if( contdown <= 2)
+        {
+            if (ContratoDemonio == "true")
+            {
+                SceneManager.LoadScene("Scene 1 - Casa_Moderna-Fora 1");
+            }
+            else if (Final1 == "true")
+            {
+                SceneManager.LoadScene("FinalTriste1 rep2");
+            }
+        }
 }
 }

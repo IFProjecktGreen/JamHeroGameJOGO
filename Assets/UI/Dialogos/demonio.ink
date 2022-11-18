@@ -42,7 +42,7 @@ Como você se sente com tudo isso?
 -Tudo bem então, é só apertar a minha mão e tudo está feito
     *[Apertar]
         Boa decisão garotinho
-        Resumindo tudo, você tem 2 oportunidades de reverter esse ocorrido
+        Resumindo tudo, você só tem 1 oportunidade para reverter esse ocorrido, não desperdice, ou desperdice, você que sabe
         Já que eu só consigo te levar para o passado duas vezes antes de você...
         Enfim, boa sorte!
         ~DemonioContrato = "true"
@@ -60,7 +60,9 @@ Como você se sente com tudo isso?
                 ~DemonioContrato = "true"
                     -> DONE
             **[Não apertar]
-                ->DONE
+                ~Final1 = "true"
+                Cagão...
+                    ->DONE
     
 -> END
     
