@@ -58,7 +58,7 @@ public class FimCena2 : MonoBehaviour
             animator.SetBool("aparecer", false);
             if(Fim_Cena1 == "true")
             {
-                SceneManager.LoadScene("Scene 4 - Festa-Interior");
+                SceneManager.LoadScene("scene 04");
             }
             else if( FinalFeliz == "true")
             {
