@@ -1,0 +1,7 @@
+
+€csharpsquid:S101	"eRename class 'dialogocontroler' to match pascal case naming rules, consider using 'Dialogocontroler'.(Æ°¼
+Kcsharpsquid:S3903	"/Move 'dialogocontroler' into a named namespace.(Æ°¼
+fcsharpsquid:S1104'"DMake this field 'private' and encapsulate it in a 'public' property.(ñÂ£†ûÿÿÿÿ
+Fcsharpsquid:S3456’")Remove this redundant 'ToCharArray' call.(õý‘
+wcsharpsquid:S26966"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ñõîÙþÿÿÿÿ
+9csharpsquid:S1643”"Use a StringBuilder instead.(áÝè/
