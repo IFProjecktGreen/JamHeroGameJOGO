@@ -6,6 +6,6 @@ INCLUDE global.ink
 
 === main ===
 Olha só, parece que você conseguiu fazer o que parecia impossível, conseguir piorar mais ainda as coisas, pois além da sua filha morrer atropelada, você ainda bate o carro novamente e mata a sua mulher também. Esse com certeza é o pior cenário possível.
+    ~Final1 = "true"
 
-~Final1 = "true"
 -> END
