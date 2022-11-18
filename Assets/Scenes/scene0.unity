@@ -184,8 +184,8 @@ MonoBehaviour:
   m_text: "Finalmente a sua vida financeira est\xE1 melhorando, pois a empresa que
     Pedro trabalha teve o maior lucro anual da sua hist\xF3ria."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -321,8 +321,8 @@ MonoBehaviour:
     dificuldades enfrentadas na sua vida, ele se tornou um viciado em trabalho que
     sempre p\xF5e o dinheiro como prioridade acima de tudo. \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -557,8 +557,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "At\xE9 mesmo da sua fam\xEDlia..."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -693,8 +693,8 @@ MonoBehaviour:
   m_text: "Por\xE9m, amanh\xE3 \xE9 o anivers\xE1rio da sua filha e caso Pedro n\xE3o
     v\xE1 para a festa ele n\xE3o ir\xE1 receber a promo\xE7\xE3o."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -930,8 +930,8 @@ MonoBehaviour:
   m_text: "No pr\xF3ximo dia ter\xE1 uma festa para comemorar esse ano fant\xE1stico
     e foi prometido por sua chefe que seria anunciada a sua promo\xE7\xE3o.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1123,8 +1123,8 @@ MonoBehaviour:
   m_text: "Pedro nasceu em uma fam\xEDlia pobre e por isso desde crian\xE7a ele sempre
     passou por v\xE1rios problemas financeiros. \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

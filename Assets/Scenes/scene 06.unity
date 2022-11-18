@@ -186,8 +186,8 @@ MonoBehaviour:
     sua filha conseguiram sair sem ferimentos graves, mas sua esposa n\xE3o teve
     a mesma sorte."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -461,8 +461,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ela morreu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -698,8 +698,8 @@ MonoBehaviour:
   m_text: O choque que a morte da sua esposa causou em Pedro foi tremendo e a partir
     desse dia ele se tornou outra pessoa, uma pessoa muito mais sombria e triste.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -891,8 +891,8 @@ MonoBehaviour:
   m_text: "\"Se eu pudesse voltar no tempo eu seria completamente difetente\" essa
     \xE9 a frase que ele mais pensa desde aquele dia, mas e se..."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1027,8 +1027,8 @@ MonoBehaviour:
   m_text: "Alguns dias depois ele se mudou de casa junto da sua filha, pois aquela
     casa antiga trazia lembran\xE7as muito dolorosas para ele."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1163,8 +1163,8 @@ MonoBehaviour:
   m_text: "Ap\xF3s deixar o anivers\xE1rio da sua filha de lado e ficar b\xEAbado,
     ele resolveu dirigir."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
+  m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
