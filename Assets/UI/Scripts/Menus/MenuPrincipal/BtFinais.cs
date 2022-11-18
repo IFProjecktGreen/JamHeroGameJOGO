@@ -12,6 +12,6 @@ public class BtFinais : MonoBehaviour
 
     public void btInicio()
     {
-        SceneManager.LoadScene("Scene 2 - Casa_Moderna - Interno");
+        SceneManager.LoadScene("Scene 1 - Casa_Moderna-Fora");
     }
 }

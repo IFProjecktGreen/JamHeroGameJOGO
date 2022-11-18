@@ -20,7 +20,7 @@ public class trig : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SceneManager.LoadScene("Scene 4 - Festa-Interior");
+        SceneManager.LoadScene("Scene 6 - Chale-Fora");
     }
 
     private void Update()

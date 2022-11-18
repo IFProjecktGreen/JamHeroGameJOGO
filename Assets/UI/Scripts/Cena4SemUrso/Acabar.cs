@@ -10,6 +10,9 @@ public class Acabar : MonoBehaviour
     private string Chefe;
     private string Janela;
 
+    public SpriteRenderer janelafechada;
+    public SpriteRenderer janelaaberta;
+
     // Update is called once per frame
     void Update()
     {
@@ -24,6 +27,8 @@ public class Acabar : MonoBehaviour
         if(Janela == "true")
         {
             janela.enabled = true;
+            janelafechada.enabled = false;
+            janelaaberta.enabled = true;
         }
     }
 }

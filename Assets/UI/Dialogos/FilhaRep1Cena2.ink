@@ -47,7 +47,6 @@ MAMÃE NÓS VAMOS PARA O PARQUE AMANHÃ
 (Snif Snif)
 Você quer dar o urso?
     *[Sim]
-    ~filha_urso = "true"
         **[Querida, não poderemos ir ao parque amanhã, mas nós podemos comemorar na festa que o papai vai amanhã]
             Mas eu queria muito ir para o parque
             eu, eu... Tudo bem
@@ -55,13 +54,13 @@ Você quer dar o urso?
                     Obrigado pai
                     ~ urso = "false"
                     ~ crianca_1Triste = "true"
-                    ~fim_cena1 = "true"
+                    ~ filha_urso = "true"
                         ->DONE
                 ***[Olha esse ursinho que o papai comprou para você]
                     Que fofinho, orbigada pai
                     ~ urso = "false"
                     ~ crianca_1Triste = true
-                    ~fim_cena1 = "true"
+                    ~ filha_urso = "true"
                         ->DONE
         **[Filha, papai lembrava, até comprei esse ursinho]
             Que fofinho, orbigada pai
@@ -79,16 +78,17 @@ Você quer dar o urso?
                             Ah... haha me pegou
                             ~crianca_1Triste = "true"
                             ~urso = "false"
-                            ~fim_cena1 = "true"
+                            ~filha_urso = "true"
                                 ->DONE
                 ***[Vai ser divertido, eu prometo]
                     Ta bom...
                     ~crianca_1Triste = "true"
                     ~urso = "false"
-                    ~fim_cena1 = "true"
+                    ~filha_urso = "true"
                         ->DONE
     *[Não]
         ~fim_cena1 = "true"
+        ~urso = "false"
             ->DONE
                     
 === UrsoBom ===

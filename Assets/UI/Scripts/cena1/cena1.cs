@@ -35,7 +35,7 @@ public class cena1 : MonoBehaviour
             contdown -= Time.deltaTime;
             if (contdown <= 0)
             {
-                SceneManager.LoadScene("Scene 2 - Casa_Moderna - Interno rep1");
+                SceneManager.LoadScene("Scene 2 - Casa_Moderna - Interno");
             }
         }
 
