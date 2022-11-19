@@ -118,17 +118,6 @@ public class FimCena4 : MonoBehaviour
             {
                 SceneManager.LoadScene("Scene 3 - Estrada_Para_A_Festa_E_Estrada_Para_Casa");
             }
-
-            if (FinalFeliz == "true")
-            {
-                SceneManager.LoadScene("FinalFeliz2");
-            }
-
-            if (repeat == "true")
-            {
-                SceneManager.LoadScene("FinalTriste4");
-
-            }
         }
     }
 
