@@ -14,4 +14,9 @@ public class BtFinais : MonoBehaviour
     {
         SceneManager.LoadScene("scene0");
     }
+
+    public void btCreditos()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
 }
