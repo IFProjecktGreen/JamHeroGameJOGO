@@ -6,32 +6,32 @@ INCLUDE global.ink
 {chefe == "false": -> mulher1 | -> mulher2}
 
 === mulher1 ===
-Não acredito que nós realmente estamos aqui
+Não acredito que nós realmente viemos
     *[Não fica com essa cara que hoje é o meu dia!]
-        Era para ser o da sua filha, mas ta certo
+        Era para ser o da sua filha, mas tudo bem
             **[Se for ficar assim era melhor nem ter vindo]
-                Ai Pedro, ta certo vai logo falar com a tua chefe, ela deve ta esperando
+                Ai Pedro, está certo, vai logo falar com a tua chefe, ela deve estar te esperando
                     ->DONE
-            **[Cuida da Carla, eu ja volto]
+            **[Cuida da Carla, eu já volto]
                 ->DONE
-    *[Você saber que eu não podia deixar de vir né]
-        Ta certo, ta certo
+    *[Você sabe que eu não podia deixar de vir né!?]
+        Certo, certo
         Trabalho, promoção e etc
             -> DONE
 
 === mulher2 ===
     Terminou de farrear?
-    *[Tu reclama demais serio, eu fui promovido e tu fica emburrada]
-        Vamo embora logo
+    *[Tu reclama demais sério, eu fui promovido e tu fica emburrada]
+        Vamos voltar logo
             **[Mas onde está a Carla?]
                 Ela estava brincando agora há pouco...
                 Eu só fui no banheiro..
-                Corre!! Vamos procurar ela 
+                Corre!! Vamos procurar ela! 
                 ~janela = "true"
                     ->DONE
             **[Ai que mulher rabugenta]
                 OkOk Pedro
-                To sem paciência
+                Estou sem paciência para isso
                 Chama logo a Carla
                 ...
                 Cadê ela?
@@ -40,16 +40,16 @@ Não acredito que nós realmente estamos aqui
             
     *[SOU GERENTEEEEEEEEEEEE]
         Meu Deus...
-        Vamo embora antes que tu desmaie
+        Vamos voltar antes que tu acabe desmaiando
             **[Mas onde está a Carla?]
                 Ela estava brincando agora há pouco...
                 Eu só fui no banheiro..
-                Corre!! Vamos procurar ela 
+                Corre!! Vamos procurar ela! 
                 ~janela = "true"
                     ->DONE
             **[Ai que mulher rabugenta]
                 OkOk Pedro
-                To sem paciência
+                Estou sem paciência para isso
                 Chama logo a Carla
                 ...
                 Cadê ela?
@@ -59,15 +59,17 @@ Não acredito que nós realmente estamos aqui
 === mulherFeliz ===
 Já voltou? 
     *[Vamos voltar]
-        O que foi amor? Você não ia ser promovido?
+        O que foi? Você não ia ser promovido?
             **[Prefiro comemorar o aniversário da minha filha]
+                Pedro??? Que milagre foi esse?
+                
     *[Não quero mais o cargo]
         Mas você tava se esforçando tanto, o que aconteceu?
             **[Prefiro comemorar o aniversário da minha filha]
     
 -O que??? Amor...
 -Estou muito feliz contigo agora
--Vamos buscar ela
+-Vamos logo então, vai que o feitiço passa
     -> DONE
 
 

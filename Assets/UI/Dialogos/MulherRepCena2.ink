@@ -11,7 +11,7 @@ INCLUDE global.ink
 Boa noite amor, como foi no trabalho? 
     *[Muito cansativo, como sempre]
         Eu imagino, a cada dia que passa você está mais ocupado
-        Só cuidado para não esquecer da gente kkkk
+        Só cuidado para não esquecer de nós
         Inclusive, a Carla quer conversar contigo sobre o aniversário dela.
             **[Vou falar com ela]
                 Não vai me dizer que tem algo no trabalho amanhã né?!
@@ -21,7 +21,7 @@ Boa noite amor, como foi no trabalho?
                         Vai falar isso para ela, que ela vai amar
                             -> DONE
                     ***[Esse é o problema, tem e eu tenho que ir]
-                        ...Eu não digo nada
+                        ...Eu não digo é nada
                         Agora se vira para falar isso para ela
                             -> DONE
             **[Amanhã tem um evento na empresa e eu tenho que ir]
@@ -30,7 +30,7 @@ Boa noite amor, como foi no trabalho?
                     ->DONE
 
     *[Foi ótimo, a diretoria até me convidou para uma confraternização amanhã.]
-        Mas, amanhã é o aniversário da nossa filha Pedro
+        Mas amanhã é o aniversário da nossa filha Pedro
             **[Já é amanha?]
                 Pedro...
                 Como você não lembra quando é o aniversário da sua filha??
@@ -46,12 +46,12 @@ Boa noite amor, como foi no trabalho?
 
 Não acredito que você realmente falou isso
 Tenta pelo menos comprar algo interessante para ela
-Pode ser aquele ursinho que você tinha comprado um tempo atrás para ela, acho que ele está na cozinha.
+Pode ser aquele ursinho que você tinha comprado um tempo atrás, acho que ele está na cozinha.
     ~Mulher2 = "true"
     ->DONE
     
 === muie_feliz ===
-Meu Deus se eu to sonhando não me acorda
+Meu Deus se eu estou sonhando não me acorde
 Faz quantos anos que esse milagre não acontece, uns 4 anos?
 Vamos para o parque então!!
     ~FinalFeliz = "true"

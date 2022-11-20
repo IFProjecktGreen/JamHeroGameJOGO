@@ -19,9 +19,9 @@ Estou muito ansiosa para o meu aniversário.
         
   
     === choro ===
-MAS VOCÊ PROMETEU QUE IRÍAMOS COMEMORAR ESSE ANO
+MAS O SENHOR PROMETEU QUE IRÍAMOS COMEMORAR ESSE ANO
 SEMPRE É A MESMA COISA.
-NEM PRESENTE VOCÊ ME DA, SEMPRE O TRABALHO.
+NEM PRESENTE EU GANHO MAIS.
 (Carla começa a chorar)
 ~ crianca_1 = "true"
     -> DONE
@@ -33,7 +33,7 @@ NEM PRESENTE VOCÊ ME DA, SEMPRE O TRABALHO.
         Mas eu queria muito ir para o parque
         eu, eu... Tudo bem
             **[Você vai gostar, tenho certeza. Toma esse ursinho que eu comprei pra você]
-                Obrigado pai
+                Obrigado pai...
                 ~ urso = "false"
                     ->DONE
             **[Olha esse ursinho que o papai comprou para você]

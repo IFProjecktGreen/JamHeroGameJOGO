@@ -9,7 +9,7 @@ INCLUDE global.ink
     -> DONE
     
 === pegou ===
-(Você ja pegou o urso)
+(Você já pegou o urso)
     -> DONE
     
 -> END
