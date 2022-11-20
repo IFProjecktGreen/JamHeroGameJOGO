@@ -1,10 +1,12 @@
-using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Player : MonoBehaviour
 {
     public float speed;
     private Vector2 movement;
+    public AudioSource passosAudioSource;
+    public AudioClip[] audioPassosClips; 
 
     public Vector2 _movement
     {
@@ -33,6 +35,11 @@ public class Player : MonoBehaviour
             OnMove();
             OnInput();
         }
+    }
+    
+    public void Passos()
+    {
+        passosAudioSource.PlayOneShot(audioPassosClips[Random.Range(0, audioPassosClips.Length)]);
     }
 
     #region Movement
