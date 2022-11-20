@@ -15,5 +15,10 @@ public class FimHistória1 : MonoBehaviour
         {
             SceneManager.LoadScene("Scene 1 - Casa_Moderna-Fora");
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Scene 1 - Casa_Moderna-Fora");
+        }
     }
 }

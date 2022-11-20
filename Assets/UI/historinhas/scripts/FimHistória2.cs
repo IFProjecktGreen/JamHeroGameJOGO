@@ -13,5 +13,10 @@ public class FimHistória2 : MonoBehaviour
         {
             SceneManager.LoadScene("Scene 4 - Festa-Interior");
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Scene 4 - Festa-Interior");
+        }
     }
 }
