@@ -15,5 +15,10 @@ public class FimHistória3 : MonoBehaviour
         {
             SceneManager.LoadScene("Scene 6 - Chale-Fora");
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Scene 6 - Chale-Fora");
+        }
     }
 }
