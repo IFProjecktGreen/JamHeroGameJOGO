@@ -6,6 +6,7 @@ public class demonio : MonoBehaviour
 {
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] SpriteRenderer visiocue;
+    public CapsuleCollider2D capsuleCollider;
     private string CamaCena6;
 
 
@@ -15,6 +16,7 @@ public class demonio : MonoBehaviour
         {
             spriteRenderer.enabled = true;
             visiocue.enabled = true;
+            capsuleCollider.enabled = true;
         }
     }
 
@@ -24,6 +26,7 @@ public class demonio : MonoBehaviour
         {
             spriteRenderer.enabled = false;
             visiocue.enabled = false;
+            capsuleCollider.enabled = false;
         }
     }
 

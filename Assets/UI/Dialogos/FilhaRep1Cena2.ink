@@ -87,6 +87,7 @@ Você quer dar o urso?
                     ~filha_urso = "true"
                         ->DONE
     *[Não]
+    ...
         ~fim_cena1 = "true"
         ~urso = "false"
             ->DONE

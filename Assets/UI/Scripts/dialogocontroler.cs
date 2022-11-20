@@ -194,6 +194,10 @@ public class dialogocontroler : MonoBehaviour
         {
             imagem.sprite = spritesList[6];
         }
+        else if(nome.text == "carla")
+        {
+            imagem.sprite = spritesList[7];
+        }
     }
 
 

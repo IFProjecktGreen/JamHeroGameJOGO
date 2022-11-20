@@ -1,8 +1,8 @@
 INCLUDE global.ink
 
-#Carla
+#carla
 
--> main
+{CamaCena6 == "false": -> main | -> BomDia }
 
 === main ===
 ...
@@ -13,5 +13,13 @@ INCLUDE global.ink
         ...
             
 -Boa noite...
-        
+    -> DONE
+
+=== BomDia ===
+Bom dia...
+    ->DONE
+
+
 -> END
+
+

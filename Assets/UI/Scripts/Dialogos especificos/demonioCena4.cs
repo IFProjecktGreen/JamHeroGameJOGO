@@ -8,6 +8,7 @@ public class demonioCena4 : MonoBehaviour
 
     public Canvas canvas;
     private int contador = 0;
+    public CapsuleCollider2D capsuleCollider;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,6 +16,7 @@ public class demonioCena4 : MonoBehaviour
         {
             canvas.enabled = true;
             spriteRenderer.enabled = true;
+            capsuleCollider.enabled = true;
         }
     }
 
@@ -24,6 +26,7 @@ public class demonioCena4 : MonoBehaviour
         {
             canvas.enabled = false;
             spriteRenderer.enabled = false;
+            capsuleCollider.enabled = false;
             contador ++;
         }
     }

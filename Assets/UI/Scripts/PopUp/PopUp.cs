@@ -5,6 +5,8 @@ public class PopUp : MonoBehaviour
 {
     public Canvas canvas;
     public TextMeshProUGUI missoesTXT;
+    public GameObject panel;
+    public TextMeshProUGUI fala;
 
     private float contdown = 12f;
 
@@ -17,11 +19,19 @@ public class PopUp : MonoBehaviour
         }
         else if(contdown < 6 && contdown > 0)
         {
+            panel.SetActive(false);
+            fala.enabled = false;
             missoesTXT.text = "Aperte ESC para pausar";
         }
         else
         {
             canvas.enabled = false;
+        }
+
+        if(paredes.ativo == true)
+        {
+            panel.SetActive(false);
+            fala.enabled = false;
         }
     }
 }
