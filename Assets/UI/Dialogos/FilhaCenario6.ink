@@ -12,7 +12,8 @@ INCLUDE global.ink
     *[...]
         ...
             
--Boa noite...
+-Boa noite, vou dormir
+-O senhor deveria ir também
     -> DONE
 
 === BomDia ===

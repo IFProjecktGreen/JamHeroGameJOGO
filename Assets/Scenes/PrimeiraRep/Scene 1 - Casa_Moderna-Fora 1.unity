@@ -10547,7 +10547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Acho que eu vou ficar doente se tomar mais chuva
+  m_text: "Melhor entrar r\xE1pido, est\xE1 chovendo muito."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
   m_sharedMaterial: {fileID: -2435053687310897472, guid: 45d2b109ebb0719468ca8b2b52e085c0, type: 2}
